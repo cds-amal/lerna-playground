@@ -7,5 +7,9 @@
   "publishConfig": {
     "access": "public",
     "registry": "http://localhost:9099"
+  },
+  "dependencies": {
+    "@newmaths/addition": "^1.0.1",
+    "@newmaths/multiplication": "^2.0.0"
   }
 }
