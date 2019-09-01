@@ -1,0 +1,25 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "demos/*",
+    "packages/*"
+  ],
+  "scripts": {},
+  "devDependencies": {
+    "@commitlint/cli": "^8.1.0",
+    "@commitlint/config-conventional": "^8.1.0",
+    "husky": "^3.0.4",
+    "lerna": "^3.4.3"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "[[ -n $HUSKY_BYPASS ]] || commitlint -e $HUSKY_GIT_PARAMS"
+    }
+  }
+}

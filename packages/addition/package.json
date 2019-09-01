@@ -1,0 +1,10 @@
+{
+  "name": "@newmaths/addition",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "registry": "http://localhost:9099"
+  }
+}
